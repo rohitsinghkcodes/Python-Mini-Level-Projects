@@ -4,7 +4,7 @@ import wikipedia
 
 #searching on wikipedia and returning the result
 def wikiSearch(search):
-    return wikipedia.summary(search,sentences = 10)
+    return wikipedia.summary(search,sentences = 5)
 
 #converting into hand written form
 def handWritten(searchElement):
